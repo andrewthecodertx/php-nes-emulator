@@ -1,0 +1,218 @@
+CPU Write @ 0x9FFF, Value: 0x1E
+  -> Shift Register: 01000 (Write 1)
+CPU Write @ 0x9FFF, Value: 0x0F
+  -> Shift Register: 10100 (Write 2)
+CPU Write @ 0x9FFF, Value: 0x07
+  -> Shift Register: 11010 (Write 3)
+CPU Write @ 0x9FFF, Value: 0x03
+  -> Shift Register: 11101 (Write 4)
+CPU Write @ 0x9FFF, Value: 0x01
+  -> Shift Register: 11110 (Write 5)
+  -> Write Complete. Target: 0 (0x8000-0x9FFF)
+    -> Control set to 0x1e
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 01000 (Write 1)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00100 (Write 2)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00010 (Write 3)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00001 (Write 4)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00000 (Write 5)
+  -> Write Complete. Target: 3 (0xE000-0xFFFF)
+    -> PRG Bank set to 0x0
+CPU Write @ 0xBFFF, Value: 0x00
+  -> Shift Register: 01000 (Write 1)
+CPU Write @ 0xBFFF, Value: 0x00
+  -> Shift Register: 00100 (Write 2)
+CPU Write @ 0xBFFF, Value: 0x00
+  -> Shift Register: 00010 (Write 3)
+CPU Write @ 0xBFFF, Value: 0x00
+  -> Shift Register: 00001 (Write 4)
+CPU Write @ 0xBFFF, Value: 0x00
+  -> Shift Register: 00000 (Write 5)
+  -> Write Complete. Target: 1 (0xA000-0xBFFF)
+    -> CHR Bank 0 set to 0x0
+CPU Write @ 0xDFFF, Value: 0x01
+  -> Shift Register: 11000 (Write 1)
+CPU Write @ 0xDFFF, Value: 0x00
+  -> Shift Register: 01100 (Write 2)
+CPU Write @ 0xDFFF, Value: 0x00
+  -> Shift Register: 00110 (Write 3)
+CPU Write @ 0xDFFF, Value: 0x00
+  -> Shift Register: 00011 (Write 4)
+CPU Write @ 0xDFFF, Value: 0x00
+  -> Shift Register: 00001 (Write 5)
+  -> Write Complete. Target: 2 (0xC000-0xDFFF)
+    -> CHR Bank 1 set to 0x1
+CPU Write @ 0xFF84, Value: 0xEF
+  -> RESET
+CPU Write @ 0x9FFF, Value: 0x1E
+  -> Shift Register: 01000 (Write 1)
+CPU Write @ 0x9FFF, Value: 0x0F
+  -> Shift Register: 10100 (Write 2)
+CPU Write @ 0x9FFF, Value: 0x07
+  -> Shift Register: 11010 (Write 3)
+CPU Write @ 0x9FFF, Value: 0x03
+  -> Shift Register: 11101 (Write 4)
+CPU Write @ 0x9FFF, Value: 0x01
+  -> Shift Register: 11110 (Write 5)
+  -> Write Complete. Target: 0 (0x8000-0x9FFF)
+    -> Control set to 0x1e
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 01000 (Write 1)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00100 (Write 2)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00010 (Write 3)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00001 (Write 4)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00000 (Write 5)
+  -> Write Complete. Target: 3 (0xE000-0xFFFF)
+    -> PRG Bank set to 0x0
+CPU Write @ 0xBFFF, Value: 0x00
+  -> Shift Register: 01000 (Write 1)
+CPU Write @ 0xBFFF, Value: 0x00
+  -> Shift Register: 00100 (Write 2)
+CPU Write @ 0xBFFF, Value: 0x00
+  -> Shift Register: 00010 (Write 3)
+CPU Write @ 0xBFFF, Value: 0x00
+  -> Shift Register: 00001 (Write 4)
+CPU Write @ 0xBFFF, Value: 0x00
+  -> Shift Register: 00000 (Write 5)
+  -> Write Complete. Target: 1 (0xA000-0xBFFF)
+    -> CHR Bank 0 set to 0x0
+CPU Write @ 0xDFFF, Value: 0x01
+  -> Shift Register: 11000 (Write 1)
+CPU Write @ 0xDFFF, Value: 0x00
+  -> Shift Register: 01100 (Write 2)
+CPU Write @ 0xDFFF, Value: 0x00
+  -> Shift Register: 00110 (Write 3)
+CPU Write @ 0xDFFF, Value: 0x00
+  -> Shift Register: 00011 (Write 4)
+CPU Write @ 0xDFFF, Value: 0x00
+  -> Shift Register: 00001 (Write 5)
+  -> Write Complete. Target: 2 (0xC000-0xDFFF)
+    -> CHR Bank 1 set to 0x1
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 01000 (Write 1)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00100 (Write 2)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00010 (Write 3)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00001 (Write 4)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00000 (Write 5)
+  -> Write Complete. Target: 3 (0xE000-0xFFFF)
+    -> PRG Bank set to 0x0
+CPU Write @ 0xBFFF, Value: 0x06
+  -> Shift Register: 01000 (Write 1)
+CPU Write @ 0xBFFF, Value: 0x03
+  -> Shift Register: 10100 (Write 2)
+CPU Write @ 0xBFFF, Value: 0x01
+  -> Shift Register: 11010 (Write 3)
+CPU Write @ 0xBFFF, Value: 0x00
+  -> Shift Register: 01101 (Write 4)
+CPU Write @ 0xBFFF, Value: 0x00
+  -> Shift Register: 00110 (Write 5)
+  -> Write Complete. Target: 1 (0xA000-0xBFFF)
+    -> CHR Bank 0 set to 0x6
+CPU Write @ 0xFFFF, Value: 0x06
+  -> Shift Register: 01000 (Write 1)
+CPU Write @ 0xFFFF, Value: 0x03
+  -> Shift Register: 10100 (Write 2)
+CPU Write @ 0xFFFF, Value: 0x01
+  -> Shift Register: 11010 (Write 3)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 01101 (Write 4)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00110 (Write 5)
+  -> Write Complete. Target: 3 (0xE000-0xFFFF)
+    -> PRG Bank set to 0x6
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 01000 (Write 1)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00100 (Write 2)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00010 (Write 3)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00001 (Write 4)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00000 (Write 5)
+  -> Write Complete. Target: 3 (0xE000-0xFFFF)
+    -> PRG Bank set to 0x0
+CPU Write @ 0xFFFF, Value: 0x06
+  -> Shift Register: 01000 (Write 1)
+CPU Write @ 0xFFFF, Value: 0x03
+  -> Shift Register: 10100 (Write 2)
+CPU Write @ 0xFFFF, Value: 0x01
+  -> Shift Register: 11010 (Write 3)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 01101 (Write 4)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00110 (Write 5)
+  -> Write Complete. Target: 3 (0xE000-0xFFFF)
+    -> PRG Bank set to 0x6
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 01000 (Write 1)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00100 (Write 2)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00010 (Write 3)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00001 (Write 4)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00000 (Write 5)
+  -> Write Complete. Target: 3 (0xE000-0xFFFF)
+    -> PRG Bank set to 0x0
+CPU Write @ 0xFFFF, Value: 0x06
+  -> Shift Register: 01000 (Write 1)
+CPU Write @ 0xFFFF, Value: 0x03
+  -> Shift Register: 10100 (Write 2)
+CPU Write @ 0xFFFF, Value: 0x01
+  -> Shift Register: 11010 (Write 3)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 01101 (Write 4)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00110 (Write 5)
+  -> Write Complete. Target: 3 (0xE000-0xFFFF)
+    -> PRG Bank set to 0x6
+CPU Write @ 0xFFFF, Value: 0x06
+  -> Shift Register: 01000 (Write 1)
+CPU Write @ 0xFFFF, Value: 0x03
+  -> Shift Register: 10100 (Write 2)
+CPU Write @ 0xFFFF, Value: 0x01
+  -> Shift Register: 11010 (Write 3)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 01101 (Write 4)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00110 (Write 5)
+  -> Write Complete. Target: 3 (0xE000-0xFFFF)
+    -> PRG Bank set to 0x6
+CPU Write @ 0xFFFF, Value: 0x06
+  -> Shift Register: 01000 (Write 1)
+CPU Write @ 0xFFFF, Value: 0x03
+  -> Shift Register: 10100 (Write 2)
+CPU Write @ 0xFFFF, Value: 0x01
+  -> Shift Register: 11010 (Write 3)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 01101 (Write 4)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00110 (Write 5)
+  -> Write Complete. Target: 3 (0xE000-0xFFFF)
+    -> PRG Bank set to 0x6
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 01000 (Write 1)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00100 (Write 2)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00010 (Write 3)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00001 (Write 4)
+CPU Write @ 0xFFFF, Value: 0x00
+  -> Shift Register: 00000 (Write 5)
+  -> Write Complete. Target: 3 (0xE000-0xFFFF)
+    -> PRG Bank set to 0x0

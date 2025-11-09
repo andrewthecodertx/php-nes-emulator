@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NES Emulator</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="status">Ready</div>
+        <div id="emulator-screen">
+            <canvas id="screen" width="256" height="240"></canvas>
+        </div>
+        <div class="controls">
+            <button id="reset" onclick="resetEmulator()">⟲ Reset</button>
+            <button id="step1" onclick="runFrames(1)">Step 1 Frame</button>
+            <button id="step10" onclick="runFrames(10)">Step 10 Frames</button>
+            <button id="step100" onclick="runFrames(100)">Step 100 Frames</button>
+            <button id="run" onclick="toggleRun()">▶ Run Continuous</button>
+        </div>
+        <div class="info">
+            <div class="info-panel">
+                <h3>PPU State</h3>
+                <div class="info-item">
+                    <span class="info-label">Frame Count:</span>
+                    <span class="info-value" id="frameCount">0</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Scanline:</span>
+                    <span class="info-value" id="scanline">0</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Cycle:</span>
+                    <span class="info-value" id="cycle">0</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Unique Colors:</span>
+                    <span class="info-value" id="uniqueColors">0</span>
+                </div>
+            </div>
+            <div class="info-panel">
+                <h3>Performance</h3>
+                <div class="info-item">
+                    <span class="info-label">Render Time:</span>
+                    <span class="info-value" id="renderTime">0ms</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">FPS:</span>
+                    <span class="info-value" id="fps">0</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Total Frames:</span>
+                    <span class="info-value" id="totalFrames">0</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Status:</span>
+                    <span class="info-value" id="runStatus">Idle</span>
+                </div>
+            </div>
+        </div>
+        <div class="log" id="log"></div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
